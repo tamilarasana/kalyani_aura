@@ -1,0 +1,23 @@
+[2021-04-07 10:03:00] local.ERROR: Command "config:cachr" is not defined.
+
+Did you mean one of these?
+    config:cache
+    config:clear
+    event:cache
+    route:cache
+    view:cache {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"config:cachr\" is not defined.
+
+Did you mean one of these?
+    config:cache
+    config:clear
+    event:cache
+    route:cache
+    view:cache at /home/kalyaniaura/public_html/restapi/vendor/symfony/console/Application.php:675)
+[stacktrace]
+#0 /home/kalyaniaura/public_html/restapi/vendor/symfony/console/Application.php(254): Symfony\\Component\\Console\\Application->find('config:cachr')
+#1 /home/kalyaniaura/public_html/restapi/vendor/symfony/console/Application.php(166): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 /home/kalyaniaura/public_html/restapi/vendor/laravel/framework/src/Illuminate/Console/Application.php(92): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 /home/kalyaniaura/public_html/restapi/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 /home/kalyaniaura/public_html/restapi/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
